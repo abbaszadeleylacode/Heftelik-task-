@@ -1,0 +1,114 @@
+body{
+	font-family: tahoma;
+}
+$color: #e5eef0;
+$colorWhite: #ffffff;
+$colorGray: #8D8D8D;
+$fontColor: #9facb2;
+$colorBlue: #29c2e1;
+
+                        /*header baslayir*/
+#header {
+	height: 50px;
+	background-color:$color;
+
+	.premium{
+	padding-top: 18px;
+	font-size: 12px;
+	padding-left: 6px;
+	letter-spacing: 1px;
+	color:$fontColor;
+	   
+		    }
+		}
+          
+
+			           /*header qurtarir*/
+                          /*banner baslayir*/
+#banner{
+height: 76px;
+background-color: $colorWhite;
+      	a{
+       		color: $colorGray;
+       	}
+       	 a:hover{
+       	background-color: $colorBlue;
+       	border-radius: 50px;
+       	color: $colorWhite;
+        }
+       
+		         }
+ 			.paddingTop{
+			padding-top: 12px;
+					}
+			.marginCon{
+			margin-left: 30px;
+			}
+			.marginMenu{
+				margin-right: 10px;
+			}
+			.marginMenu1{
+				margin-right: 9px;
+			}
+			.marginMenu3{
+				margin-right: 10px;
+			}
+			.marginMenu4{
+				margin-right: 20px;
+			}
+			.marginMenu5{
+				margin-right: 35px;
+			}
+			#banner img{
+				margin-left: -22px;
+				padding-bottom: 10px;
+
+			}
+                           /*banner qurtarir*/
+                        /*   about baslayir*/
+#about {
+	height: 310px;
+	background-color: $colorGray;
+}
+
+                        /*about qurtarir*/
+                       /* what we are baslayir*/
+ #whatWeAre {
+ 	height: 712px;
+ 	background-color: $colorWhite;
+ }
+
+ 						/*what we are qurtarir*/
+
+ 	/*					funFact baslayir*/
+#funFact {
+	height: 217px;
+	background-color: $colorWhite;
+}
+
+					/*	funFact qurtarir*/	
+					/*team baslayir*/		
+#team {
+	height: 672px;
+	background-color: $color;
+}
+					/*team qurtarir*/	
+					/*features baslayir*/
+#features {
+	height: 669px;
+	background-color:$colorWhite;
+}	
+					/*features baslayir*/
+					/*oneMonth baslayir*/
+#oneMonth {
+	height: 313px;
+	background-color: $colorWhite;
+}
+					/*oneMonth qurtarir*/
+					/*footer baslayir/*/
+#footer {
+	height: 426px;
+	background-color: $colorWhite;
+
+}
+					/*footer qurtarir*/
