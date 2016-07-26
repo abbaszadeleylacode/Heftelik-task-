@@ -21,7 +21,7 @@ body {
     color: #8D8D8D; }
   #banner a:hover {
     background-color: #29c2e1;
-    border-radius: 50px;
+    border-radius: 35px;
     color: #ffffff; }
 
 .paddingTop {
@@ -54,30 +54,75 @@ body {
 #about {
   height: 310px;
   background-color: #8D8D8D; }
+  #about h1 {
+    color: white;
+    font-size: 48px;
+    padding-left: 12px;
+    letter-spacing: 1px; }
+  #about p {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 13px; }
+  #about .padding {
+    padding-top: 93px; }
 
 /*about qurtarir*/
 /* what we are baslayir*/
 #whatWeAre {
-  height: 712px;
+  height: 491px;
   background-color: #ffffff; }
+  #whatWeAre .paddingTop {
+    padding-top: 76px;
+    padding-left: 12px; }
+  #whatWeAre .paddingTop2 {
+    padding-top: 185px;
+    padding-left: 45px; }
+  #whatWeAre h1 {
+    font-size: 30px; }
+  #whatWeAre h4 {
+    font-size: 15px;
+    letter-spacing: 1px; }
+  #whatWeAre .space {
+    margin-top: 8px; }
 
 /*what we are qurtarir*/
 /*					funFact baslayir*/
 #funFact {
   height: 217px;
   background-color: #ffffff; }
+  #funFact img {
+    padding-top: 75px;
+    padding-left: 20px; }
+  #funFact p {
+    float: right;
+    padding-top: 125px;
+    padding-left: 10px; }
+  #funFact h1 {
+    float: right;
+    padding-top: 50px;
+    margin-left: -149px;
+    font-size: 60px; }
 
 /*	funFact qurtarir*/
 /*team baslayir*/
 #team {
   height: 672px;
   background-color: #e5eef0; }
+  #team h4, #team p {
+    padding-left: 30px; }
+  #team .paddingTop {
+    padding-top: 78px; }
 
 /*team qurtarir*/
 /*features baslayir*/
 #features {
   height: 669px;
   background-color: #ffffff; }
+  #features h2 {
+    padding-top: 78px; }
+  #features .paddingTop {
+    padding-top: 50px;
+    padding-left: 13px; }
 
 /*features baslayir*/
 /*oneMonth baslayir*/

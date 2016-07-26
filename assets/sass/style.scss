@@ -1,114 +1,179 @@
 body{
-	font-family: tahoma;
+font-family: tahoma;
 }
 $color: #e5eef0;
 $colorWhite: #ffffff;
 $colorGray: #8D8D8D;
 $fontColor: #9facb2;
 $colorBlue: #29c2e1;
-
-                        /*header baslayir*/
+/*header baslayir*/
 #header {
-	height: 50px;
-	background-color:$color;
+height: 50px;
+background-color:$color;
+.premium{
+padding-top: 18px;
+font-size: 12px;
+padding-left: 6px;
+letter-spacing: 1px;
+color:$fontColor;
 
-	.premium{
-	padding-top: 18px;
-	font-size: 12px;
-	padding-left: 6px;
-	letter-spacing: 1px;
-	color:$fontColor;
-	   
-		    }
-		}
-          
+}
+}
 
-			           /*header qurtarir*/
-                          /*banner baslayir*/
+/*header qurtarir*/
+/*banner baslayir*/
 #banner{
 height: 76px;
 background-color: $colorWhite;
-      	a{
-       		color: $colorGray;
-       	}
-       	 a:hover{
-       	background-color: $colorBlue;
-       	border-radius: 50px;
-       	color: $colorWhite;
-        }
-       
-		         }
- 			.paddingTop{
-			padding-top: 12px;
-					}
-			.marginCon{
-			margin-left: 30px;
-			}
-			.marginMenu{
-				margin-right: 10px;
-			}
-			.marginMenu1{
-				margin-right: 9px;
-			}
-			.marginMenu3{
-				margin-right: 10px;
-			}
-			.marginMenu4{
-				margin-right: 20px;
-			}
-			.marginMenu5{
-				margin-right: 35px;
-			}
-			#banner img{
-				margin-left: -22px;
-				padding-bottom: 10px;
+a{
+color: $colorGray;
+}
+a:hover{
+background-color: $colorBlue;
+border-radius: 35px;
+color: $colorWhite;
+}
 
-			}
-                           /*banner qurtarir*/
-                        /*   about baslayir*/
+}
+.paddingTop{
+padding-top: 12px;
+}
+.marginCon{
+margin-left: 30px;
+}
+.marginMenu{
+margin-right: 10px;
+}
+.marginMenu1{
+margin-right: 9px;
+}
+.marginMenu3{
+margin-right: 10px;
+}
+.marginMenu4{
+margin-right: 20px;
+}
+.marginMenu5{
+margin-right: 35px;
+}
+#banner img{
+margin-left: -22px;
+padding-bottom: 10px;
+}
+/*banner qurtarir*/
+/*   about baslayir*/
 #about {
-	height: 310px;
-	background-color: $colorGray;
+height: 310px;
+background-color: $colorGray;
+  
+   h1 {
+   	color: white;
+   	font-size: 48px;
+   	padding-left: 12px;
+   	letter-spacing: 1px;
+   }
+   p{
+   	color: white;
+   	letter-spacing: 2px;
+   	font-size: 13px;
+   }
+   .padding{
+   	padding-top: 93px;
+   }
+
 }
+/*about qurtarir*/
+/* what we are baslayir*/
+#whatWeAre {
+height: 491px;
+background-color: $colorWhite;
+	
+	.paddingTop{
+		padding-top: 76px;
+		padding-left: 12px;
+	}
+	.paddingTop2{
+		padding-top: 185px;
+		padding-left: 45px;
+	}
+	h1{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+	.space{
+		margin-top: 8px;
+		
+	}
 
-                        /*about qurtarir*/
-                       /* what we are baslayir*/
- #whatWeAre {
- 	height: 712px;
- 	background-color: $colorWhite;
- }
 
- 						/*what we are qurtarir*/
 
- 	/*					funFact baslayir*/
+}
+/*what we are qurtarir*/
+/*					funFact baslayir*/
 #funFact {
-	height: 217px;
-	background-color: $colorWhite;
-}
+height: 217px;
+background-color: $colorWhite;
 
-					/*	funFact qurtarir*/	
-					/*team baslayir*/		
+ img{
+ 	padding-top: 75px;
+ 	padding-left: 20px;
+ }
+  p{
+  	float: right;
+  	padding-top: 125px;
+  	padding-left: 10px;
+  }
+  h1{
+  	float: right;
+  	padding-top: 50px;
+  	margin-left: -149px;
+  	font-size: 60px;
+  	
+  }
+
+
+}
+/*	funFact qurtarir*/
+/*team baslayir*/
 #team {
-	height: 672px;
-	background-color: $color;
-}
-					/*team qurtarir*/	
-					/*features baslayir*/
-#features {
-	height: 669px;
-	background-color:$colorWhite;
-}	
-					/*features baslayir*/
-					/*oneMonth baslayir*/
-#oneMonth {
-	height: 313px;
-	background-color: $colorWhite;
-}
-					/*oneMonth qurtarir*/
-					/*footer baslayir/*/
-#footer {
-	height: 426px;
-	background-color: $colorWhite;
+height: 672px;
+background-color: $color;
 
+  h4, p {
+  	padding-left: 30px;
+
+  }
+  .paddingTop{
+  	padding-top: 78px;
+  }
+  
 }
-					/*footer qurtarir*/
+/*team qurtarir*/
+/*features baslayir*/
+#features {
+height: 669px;
+background-color:$colorWhite;
+ h2 {
+ 	padding-top: 78px;
+ }
+ .paddingTop{
+  padding-top:50px;
+  padding-left:13px;
+ }
+}
+/*features baslayir*/
+/*oneMonth baslayir*/
+#oneMonth {
+height: 313px;
+background-color: $colorWhite;
+}
+/*oneMonth qurtarir*/
+/*footer baslayir/*/
+#footer {
+height: 426px;
+background-color: $colorWhite;
+}
+/*footer qurtarir*/
