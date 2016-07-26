@@ -6,6 +6,8 @@ $colorWhite: #ffffff;
 $colorGray: #8D8D8D;
 $fontColor: #9facb2;
 $colorBlue: #29c2e1;
+$colorOrange: #F69B37;
+$colorLightGray: #d4d9dc;
 /*header baslayir*/
 #header {
 height: 50px;
@@ -163,17 +165,145 @@ background-color:$colorWhite;
   padding-top:50px;
   padding-left:13px;
  }
+ .button{
+  width: 162px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: $colorBlue;
+  color: $colorWhite;
+ }
+  .button:hover{
+    background-color:$colorBlue;
+  }
+  p{
+    padding-top:95px;
+    padding-left:500px;
+  }
+  .xett{
+    padding-top:68px;
+  }
 }
 /*features baslayir*/
 /*oneMonth baslayir*/
 #oneMonth {
 height: 313px;
 background-color: $colorWhite;
+ h2 , h6{
+  text-align: center;
+ }
+ span{
+  color: $colorOrange;
+ }
+ .paddingTop{
+  padding-top:85px;
+ }
+ .button1{
+  width: 150px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: $colorBlue;
+  color: $colorWhite;
+ }
+  .button1:hover{
+    background-color:$colorBlue;
+  }
+.button2{
+  width: 150px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: $colorOrange;
+  color: $colorWhite;
+ }
+  .button2:hover{
+    background-color:$colorOrange;
+  }
+  .centerButton{
+     padding-left: 410px;
+     padding-top: 20px;
+  }
+  h6{
+    text-transform: uppercase;
+  }
+  .padBut{
+    padding-left: 10px;
+  }
+  .xett{
+    padding-top:71px;
+  }
 }
 /*oneMonth qurtarir*/
 /*footer baslayir/*/
 #footer {
 height: 426px;
 background-color: $colorWhite;
+.box{
+  border: 1px solid red;
+
+}
+ .xett{
+    padding-top:309px;
+  }
+ 
+  img{
+    padding-top:74px;
+    padding-left:86px;
+  }
+
+  .menu{
+    padding-top:60px;
+    padding-left: 80px;
+  }
+  .menu h6{
+    letter-spacing: 1px;
+    color:$colorLightGray;
+  }
+
+ .service h6{
+padding-top: 8px;
+padding-left:20px;
+ }
+ .service {
+  padding-top:94px;
+  padding-left:30px;
+  color:$colorLightGray;
+ }
+ .service i{
+  letter-spacing: 8px;
+  
+ }
+
+ .news{
+  padding-top: 60px;
+  padding-left: 20px;
+  h6{
+    color: $colorLightGray;
+  }
+ }
+ .contact{
+  padding-top: 63px;
+  padding-left: 20px;
+  span{
+    color: $colorLightGray;
+  }
+  h6{
+  padding-top:8px;
+  letter-spacing: 1px;
+ }
+ }
+ .search {
+  width:300px;
+  height: 100px;
+}
+.search form input:first-child{
+  width: 225px;
+  height: 35px;
+  border:1px solid gray;
+}
+.button{
+  width:40px;
+  height:40px;
+}
+ 
+
 }
 /*footer qurtarir*/

@@ -123,18 +123,107 @@ body {
   #features .paddingTop {
     padding-top: 50px;
     padding-left: 13px; }
+  #features .button {
+    width: 162px;
+    height: 39px;
+    border-radius: 50px;
+    background-color: #29c2e1;
+    color: #ffffff; }
+  #features .button:hover {
+    background-color: #29c2e1; }
+  #features p {
+    padding-top: 95px;
+    padding-left: 500px; }
+  #features .xett {
+    padding-top: 68px; }
 
 /*features baslayir*/
 /*oneMonth baslayir*/
 #oneMonth {
   height: 313px;
   background-color: #ffffff; }
+  #oneMonth h2, #oneMonth h6 {
+    text-align: center; }
+  #oneMonth span {
+    color: #F69B37; }
+  #oneMonth .paddingTop {
+    padding-top: 85px; }
+  #oneMonth .button1 {
+    width: 150px;
+    height: 39px;
+    border-radius: 50px;
+    background-color: #29c2e1;
+    color: #ffffff; }
+  #oneMonth .button1:hover {
+    background-color: #29c2e1; }
+  #oneMonth .button2 {
+    width: 150px;
+    height: 39px;
+    border-radius: 50px;
+    background-color: #F69B37;
+    color: #ffffff; }
+  #oneMonth .button2:hover {
+    background-color: #F69B37; }
+  #oneMonth .centerButton {
+    padding-left: 410px;
+    padding-top: 20px; }
+  #oneMonth h6 {
+    text-transform: uppercase; }
+  #oneMonth .padBut {
+    padding-left: 10px; }
+  #oneMonth .xett {
+    padding-top: 71px; }
 
 /*oneMonth qurtarir*/
 /*footer baslayir/*/
 #footer {
   height: 426px;
   background-color: #ffffff; }
+  #footer .box {
+    border: 1px solid red; }
+  #footer .xett {
+    padding-top: 309px; }
+  #footer img {
+    padding-top: 74px;
+    padding-left: 86px; }
+  #footer .menu {
+    padding-top: 60px;
+    padding-left: 80px; }
+  #footer .menu h6 {
+    letter-spacing: 1px;
+    color: #d4d9dc; }
+  #footer .service h6 {
+    padding-top: 8px;
+    padding-left: 20px; }
+  #footer .service {
+    padding-top: 94px;
+    padding-left: 30px;
+    color: #d4d9dc; }
+  #footer .service i {
+    letter-spacing: 8px; }
+  #footer .news {
+    padding-top: 60px;
+    padding-left: 20px; }
+    #footer .news h6 {
+      color: #d4d9dc; }
+  #footer .contact {
+    padding-top: 63px;
+    padding-left: 20px; }
+    #footer .contact span {
+      color: #d4d9dc; }
+    #footer .contact h6 {
+      padding-top: 8px;
+      letter-spacing: 1px; }
+  #footer .search {
+    width: 300px;
+    height: 100px; }
+  #footer .search form input:first-child {
+    width: 225px;
+    height: 35px;
+    border: 1px solid gray; }
+  #footer .button {
+    width: 40px;
+    height: 40px; }
 
 /*footer qurtarir*/
 
