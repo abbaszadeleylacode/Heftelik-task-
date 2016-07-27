@@ -92,7 +92,7 @@ body {
   background-color: #ffffff; }
   #funFact img {
     padding-top: 75px;
-    padding-left: 20px; }
+    padding-left: 23px; }
   #funFact p {
     float: right;
     padding-top: 125px;
@@ -128,7 +128,10 @@ body {
     height: 39px;
     border-radius: 50px;
     background-color: #29c2e1;
-    color: #ffffff; }
+    color: #ffffff;
+    border: none;
+    padding: 0px;
+    margin: 0px; }
   #features .button:hover {
     background-color: #29c2e1; }
   #features p {
@@ -153,7 +156,10 @@ body {
     height: 39px;
     border-radius: 50px;
     background-color: #29c2e1;
-    color: #ffffff; }
+    color: #ffffff;
+    border: none;
+    padding: 0px;
+    margin: 0px; }
   #oneMonth .button1:hover {
     background-color: #29c2e1; }
   #oneMonth .button2 {
@@ -161,7 +167,10 @@ body {
     height: 39px;
     border-radius: 50px;
     background-color: #F69B37;
-    color: #ffffff; }
+    color: #ffffff;
+    border: none;
+    padding: 0px;
+    margin: 0px; }
   #oneMonth .button2:hover {
     background-color: #F69B37; }
   #oneMonth .centerButton {
@@ -177,12 +186,20 @@ body {
 /*oneMonth qurtarir*/
 /*footer baslayir/*/
 #footer {
-  height: 426px;
+  height: 420px;
   background-color: #ffffff; }
+  #footer form input {
+    font-size: 11px;
+    padding-left: 13px; }
   #footer .box {
     border: 1px solid red; }
   #footer .xett {
-    padding-top: 309px; }
+    padding-top: 20px; }
+  #footer p {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px; }
   #footer img {
     padding-top: 74px;
     padding-left: 86px; }
@@ -223,7 +240,31 @@ body {
     border: 1px solid gray; }
   #footer .button {
     width: 40px;
-    height: 40px; }
+    height: 35px;
+    background-color: #29c2e1;
+    border: none;
+    padding: 0px;
+    margin: 0px; }
+  #footer .solUcbucaq {
+    width: 0px;
+    height: 0px;
+    float: left;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid #F69B37;
+    border-right: 200px solid transparent;
+    position: relative;
+    bottom: 245px; }
+  #footer .sagUcbucaq {
+    width: 0px;
+    height: 0px;
+    float: left;
+    border-top: 100px solid transparent;
+    border-bottom: 00px solid transparent;
+    border-right: 225px solid #29c2e1;
+    border-left: 200px solid transparent;
+    position: relative;
+    bottom: 50px;
+    right: -720px; }
 
 /*footer qurtarir*/
 
