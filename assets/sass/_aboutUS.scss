@@ -1,0 +1,356 @@
+
+body{
+font-family: tahoma;
+}
+
+/*header baslayir*/
+#header {
+height: 50px;
+background-color:$color;
+.premium{
+padding-top: 18px;
+font-size: 12px;
+padding-left: 6px;
+letter-spacing: 1px;
+color:$fontColor;
+
+}
+}
+
+/*header qurtarir*/
+/*banner baslayir*/
+#banner{
+height: 76px;
+background-color: $colorWhite;
+a{
+color: $colorGray;
+}
+a:hover{
+background-color: $colorBlue;
+border-radius: 35px;
+color: $colorWhite;
+}
+
+}
+.paddingTop{
+padding-top: 12px;
+}
+.marginCon{
+margin-left: 30px;
+}
+.marginMenu{
+margin-right: 10px;
+}
+.marginMenu1{
+margin-right: 9px;
+}
+.marginMenu3{
+margin-right: 10px;
+}
+.marginMenu4{
+margin-right: 20px;
+}
+.marginMenu5{
+margin-right: 35px;
+}
+#banner img{
+margin-left: -22px;
+padding-bottom: 10px;
+}
+/*banner qurtarir*/
+/*   about baslayir*/
+#about {
+height: 310px;
+background-color: $colorGray;
+  
+   h1 {
+   	color: white;
+   	font-size: 48px;
+   	padding-left: 12px;
+   	letter-spacing: 1px;
+   }
+   p{
+   	color: white;
+   	letter-spacing: 2px;
+   	font-size: 13px;
+   }
+   .padding{
+   	padding-top: 93px;
+   }
+
+}
+/*about qurtarir*/
+/* what we are baslayir*/
+#whatWeAre {
+height: 491px;
+background-color: $colorWhite;
+	
+	.paddingTop{
+		padding-top: 76px;
+		padding-left: 12px;
+	}
+	.paddingTop2{
+		padding-top: 185px;
+		padding-left: 45px;
+	}
+	h1{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+	.space{
+		margin-top: 8px;
+		
+	}
+
+
+
+}
+/*what we are qurtarir*/
+/*					funFact baslayir*/
+#funFact {
+height: 217px;
+background-color: $colorWhite;
+
+ img{
+ 	padding-top: 75px;
+ 	padding-left: 23px;
+ }
+  p{
+  	float: right;
+  	padding-top: 125px;
+  	padding-left: 10px;
+  }
+  h1{
+  	float: right;
+  	padding-top: 50px;
+  	margin-left: -149px;
+  	font-size: 60px;
+  	
+  }
+ 
+
+}
+/*	funFact qurtarir*/
+/*team baslayir*/
+#team {
+height: 672px;
+background-color: $color;
+
+  h4, p {
+  	padding-left: 30px;
+
+  }
+  .paddingTop{
+  	padding-top: 78px;
+  }
+  
+}
+/*team qurtarir*/
+/*features baslayir*/
+#features {
+height: 669px;
+background-color:$colorWhite;
+ h2 {
+ 	padding-top: 78px;
+ }
+ .paddingTop{
+  padding-top:50px;
+  padding-left:13px;
+ }
+ .button{
+  width: 162px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: $colorBlue;
+  color: $colorWhite;
+  border: none;
+   padding: 0px;
+    margin: 0px;
+ }
+  .button:hover{
+    background-color:$colorBlue;
+  }
+  p{
+    padding-top:95px;
+    padding-left:500px;
+  }
+  .xett{
+    padding-top:68px;
+  }
+}
+/*features baslayir*/
+/*oneMonth baslayir*/
+#oneMonth {
+height: 313px;
+background-color: $colorWhite;
+ h2 , h6{
+  text-align: center;
+ }
+ span{
+  color: $colorOrange;
+ }
+ .paddingTop{
+  padding-top:85px;
+ }
+ .button1{
+  width: 150px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: $colorBlue;
+  color: $colorWhite;
+  border: none;
+   padding: 0px;
+    margin: 0px;
+ }
+  .button1:hover{
+    background-color:$colorBlue;
+  }
+.button2{
+  width: 150px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: $colorOrange;
+  color: $colorWhite;
+  border: none;
+   padding: 0px;
+    margin: 0px;
+ }
+  .button2:hover{
+    background-color:$colorOrange;
+  }
+  .centerButton{
+     padding-left: 410px;
+     padding-top: 20px;
+  }
+  h6{
+    text-transform: uppercase;
+  }
+  .padBut{
+    padding-left: 10px;
+  }
+  .xett{
+    padding-top:71px;
+  }
+}
+/*oneMonth qurtarir*/
+/*footer baslayir/*/
+#footer {
+height: 420px;
+background-color: $colorWhite;
+form input {
+  font-size: 11px;
+  padding-left: 13px;
+}
+
+.box{
+  border: 1px solid red;
+
+}
+.xett{
+    padding-top:20px;
+  }
+  p{
+      padding-top:20px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  img{
+    padding-top:74px;
+    padding-left:86px;
+  }
+
+  .menu{
+    padding-top:60px;
+    padding-left: 80px;
+  }
+  .menu h6{
+    letter-spacing: 1px;
+    color:$colorLightGray;
+  }
+
+ .service h6{
+padding-top: 8px;
+padding-left:20px;
+ }
+ .service {
+  padding-top:94px;
+  padding-left:30px;
+  color:$colorLightGray;
+ }
+ .service i{
+  letter-spacing: 8px;
+  
+ }
+
+ .news{
+  padding-top: 60px;
+  padding-left: 20px;
+  h6{
+    color: $colorLightGray;
+  }
+ }
+ .contact{
+  padding-top: 63px;
+  padding-left: 20px;
+  span{
+    color: $colorLightGray;
+  }
+  h6{
+  padding-top:8px;
+  letter-spacing: 1px;
+ }
+ }
+ .search {
+  width:300px;
+  height: 100px;
+}
+.search form input:first-child{
+  width: 225px;
+  height: 35px;
+  border:1px solid gray;
+}
+.button{
+  width:40px;
+  height:35px;
+  background-color: $colorBlue;
+  border: none;
+   padding: 0px;
+    margin: 0px;
+
+
+}
+ 
+.solUcbucaq {
+ width: 0px;
+ height:0px;
+ float: left;
+ 
+ border-top: 100px solid transparent;
+ border-bottom: 100px solid #F69B37;
+ border-right: 200px solid transparent;
+ position:relative;
+ bottom: 245px;
+}
+.sagUcbucaq {
+  width: 0px;
+ height:0px;
+ float: left;
+ 
+ border-top: 100px solid transparent;
+ border-bottom: 00px solid transparent;
+ border-right: 225px solid $colorBlue;
+ border-left: 200px solid transparent;
+ position:relative;
+ bottom:50px;
+ right: -720px;
+}
+}
+/*footer qurtarir*/
+
+
+// blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog blog 
+

@@ -267,5 +267,88 @@ body {
     right: -720px; }
 
 /*footer qurtarir*/
+#page {
+  height: 310px;
+  background-color: #8D8D8D; }
+  #page h1 {
+    color: white;
+    font-size: 48px;
+    padding-left: 12px;
+    letter-spacing: 1px; }
+  #page p {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 13px; }
+  #page .padding {
+    padding-top: 93px; }
+
+#map .box {
+  width: 1145px;
+  height: 419px;
+  background-color: #ffffff; }
+#map h1 {
+  padding-top: 85px;
+  font-size: 30px;
+  padding-left: 10px; }
+#map h5 {
+  padding-left: 10px;
+  font-size: 18px; }
+#map .right {
+  margin-left: 25px;
+  margin-top: 7px; }
+#map iframe {
+  width: 1145px;
+  height: 419px;
+  margin-left: -15px;
+  margin-top: -3px; }
+
+#contact1 .bor {
+  margin-left: 13px;
+  width: 1145px;
+  height: 300px; }
+#contact1 .box {
+  height: 300px; }
+#contact1 .centerGo {
+  text-align: center; }
+#contact1 i {
+  padding-top: 80px; }
+#contact1 h6 {
+  text-transform: uppercase; }
+#contact1 img {
+  padding-left: 150px; }
+
+#commentPlace .paddingTopp {
+  padding-top: 40px;
+  padding-bottom: 10px; }
+#commentPlace input {
+  width: 550px;
+  height: 50px;
+  background-color: #E3EEF0;
+  font-size: 13px; }
+#commentPlace textarea {
+  background-color: #E3EEF0; }
+#commentPlace .button {
+  width: 145px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: #29c2e1;
+  color: #ffffff;
+  border: none;
+  padding: 0px;
+  margin: 0px; }
+#commentPlace .button:hover {
+  background-color: blue; }
+#commentPlace h3 {
+  font-size: 25px; }
+
+.top2 {
+  padding-top: 50px;
+  padding-bottom: 25px; }
+
+.left2 {
+  padding-left: 200px; }
+
+.top3 {
+  padding-top: 23px; }
 
 /*# sourceMappingURL=style.css.map */
