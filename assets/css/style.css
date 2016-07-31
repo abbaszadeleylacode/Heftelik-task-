@@ -351,4 +351,19 @@ body {
 .top3 {
   padding-top: 23px; }
 
+#homme .carousel-inner > .item > img,
+#homme .carousel-inner > .item > a > img {
+  width: 1970px;
+  height: 750px;
+  margin: auto; }
+#homme h1 {
+  font-size: 48px; }
+#homme p {
+  font-size: 14px; }
+
+#clients .box {
+  border: 1px solid red;
+  height: 465px;
+  background-color: #e5eef0; }
+
 /*# sourceMappingURL=style.css.map */
