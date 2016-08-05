@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contactUs</title>
+</head>
+<body><meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		
+		
+		
+		<body>
+			<section>
+				<section id="HomeHeader" >
+					<div class="container ">
+						<div class="row premium ">
+							<div class="col-md-6 "></div>
+							<div class="col-md-6 mob">
+								<ul class="list-inline text-right">
+									<li style="color:lightgray">Call us: 9855 445 4444</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="banner">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								
+								<div class="container-fluid paddingTop ">
+									<span class="navbar-brand" href="#"><img src="assets/image/logo.png">
+									</span>
+									<ul class="nav navbar-nav navbar-right ">
+										<li class="marginMenu3"><a href="home.html">HOME</a></li>
+										<li class="marginMenu4"><a href="aboutUs.html">ABOUT US</a></li>
+										<li class="marginmenu5"><a href="news.html">NEWS</a></li>
+										<li class=""><a href="portfolio.html">PORTFOLIO</a></li>
+										<li class=""><a href="service.html">SERVICE</a></li>
+										<li class="marginMenu1"><a href="blog.html">BLOG</a></li>
+										<li class="marginMenu"><a href="pages.html">PAGES<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+										<li class="marginCon"><a href="contactUs">CONTACT US</a></li>
+									</ul>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="homepagetwo">
+				<img src="assets/image/1970.jpg">
+				<div class="bottom">
+					<div class="prev" onclick="prev()"><i class="fa fa-angle-left  fa-5x" aria-hidden="true"></i></div>
+					<div class="next" onclick="next()"><i class="fa fa-angle-right  fa-5x" aria-hidden="true"></i></div>
+				</div>
+					<div id="position" class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="container-fluid  text-center margin box">
+									<h3>BOOST UP YOUR </h3>
+									<h1><b>LOCAL BUSINESS</b></h1>
+								<button class="button">CONTACT US</button>
+								</div>
+								<div class="container-fluid box1 margin1">
+								<h4 class="padRight"><div class="sign">SIGN UP</div><br>NEWSLETTER</h4>
+ 									<span>:</span> 
+ 									<input type="text" name="name" placeholder="   NAME">
+									<input type="text" name="name" placeholder="   EMAIL ADRESS">
+ 									<button class="button1">SUBSCRIBE NOW</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			<script type="text/javascript">
+				imageArr=["assets/image/1970.jpg","assets/image/image2.jpg","assets/image/image6.jpg","assets/image/image5.jpg","assets/image/image7.jpg"];
+				descArr=["IMAGE 1","IMAGE 2","IMAGE 3","IMAGE 4","IMAGE 5"];
+
+
+					imgSource=document.getElementsByTagName('img')[1];
+					descSource=document.getElementsByTagName('h3')[0];
+					buttonSource=document.getElementsByTagName('button')[0];
+					descSource.innerHTML=descArr[0];
+					
+					imgSource.src=imageArr[0];
+					var d=5;
+
+					var count=0;
+
+					function prev() {
+						count--;
+						console.log(count);
+						if (count<0) {
+							
+							count=descArr.length-1;
+						} 
+						console.log(count);
+
+
+						imgSource.src=imageArr[count];
+						descSource.innerHTML=descArr[count];
+						
+					}
+					function next() {
+						count++;
+						if (count==imageArr.length) {
+							count=0;
+						} 
+						imgSource.src=imageArr[count];
+						descSource.innerHTML=descArr[count];
+						buttonSource.innerHTML=buttonArr[count];
+					}
+			</script>
+				
+				<section id="whatWeAre">
+						<div class="container">
+							<div class="texts">
+								<h5>What</h5>
+								<h6><b>WE ARE<b></h6>
+							</div>
+							<div>
+								<div class="col-md-6 image">	
+										<h3>IMAGE</h3>
+										<h3>475x308</h3>		
+								</div>
+								<div class="col-md-6 text">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets.</p>
+									<a href="#"><button type="button" class="btn">READ MORE</button></a>
+								</div>
+							</div>
+						</div>
+				</section>
+
+
+  				<section id="features1">
+					<div class="container">
+						<h5>OUR</h5>
+						<h3><b>SERVICES</b></h3>
+						<div class="row paddingTop padding">
+							<div class="col-md-4 pad"><img src="assets/image/bir.png"></div>
+							<div class="col-md-4 pad"><img src="assets/image/iki.png"></div>
+							<div class="col-md-4 pad"><img src="assets/image/uc.png"></div>
+						</div>
+						<div class="row paddingTop">
+							<div class="col-md-4"><img src="assets/image/dord.png"></div>
+							<div class="col-md-4"><img src="assets/image/bes.png"></div>
+							<div class="col-md-4"><img src="assets/image/alti.png"></div>
+						</div>
+		
+					</div>
+				</section>
+
+
+  				<section id="happyClients">
+  					<div class="row">
+  						<div class="col-md-2"></div>
+  						<div class="col-md-8 margin">
+  							<h6>HAPPY</h6>
+  							<h3><b>CLIENTS</b></h3>
+  							<span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+  							<p>   <i class="fa fa-quote-left" aria-hidden="true"></i></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
+							specimen book. It has survived not only five centuries.    <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+							<div class="marginH4">
+							<h4><b>BY</b></h4>
+							<h4><b>SUNITHA DANIAL</b></h4>
+							</div>
+							<div class="row">
+								<img src="assets/image/1.png">
+								<img src="assets/image/1.png">
+								<img src="assets/image/1.png">
+							</div>
+								<div class="row">
+								<img src="assets/image/1.png">
+								<img src="assets/image/1.png">
+							</div>
+
+  						</div>
+  						<div class="col-md-2"></div>
+  					</div>
+		        </section>
+		        <script type="text/javascript">
+					 commentArr=["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.","However, also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.","Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.","There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."]
+
+						commentSource=document.getElementsByClassName('col-md-8')[0].getElementsByTagName('p')[0];
+						commentSource.innerHTML=commentArr[0];
+
+						count=0;
+
+						function nextComment() {
+							count++;
+							if (count==commentArr.length) {
+								count=0;
+							} 
+							commentSource.innerHTML=commentArr[count];
+						}
+						var myInterval=setInterval(nextComment, 5000);
+				</script>
+
+				<section id="ourPricing">
+				       <p>OUR</p>
+		   				<h3><b>PRICING</b></h3>
+						
+							<div class="row marginTop">
+								<div class="col-md-3">
+									<h4>PERSONAL</h4>
+									<hr>
+									<p>From <span>$100</span> per month</p>
+									<hr>
+									<p>Business Support</p>
+									<p>Business Analysing</p>
+									<p>24 hour support</p>
+									<button class="button">START NOW</button>
+								</div>
+
+							<div class="col-md-3">
+
+									<h4>BUSINESS</h4>
+									<hr>
+									<p>From <span>$200</span> per month</p>
+									<hr>
+									<p>Business Support</p>
+									<p>Business Analysing</p>
+									<p>Client managment</p>
+									<p>24 hour support</p>
+									<button class="button">START NOW</button>
+								</div>
+
+								<div class="col-md-3">
+									<h4>GOLD</h4>
+									<hr>
+									<p>From <span>$250</span> per month</p>
+									<hr>
+									<p>24 hour support</p>
+									<p>Client managment</p>
+									<p>Keeping business data</p>
+
+									<button class="button">START NOW</button>
+								</div>
+
+								<div class="col-md-3">
+									<h4>ULTIMATE</h4>
+									<hr>
+									<p>From <span>$100</span> per month</p>
+									<hr>
+									<p>24 hour support</p>
+									<p>Client managment</p>
+									<p>Keeping business data</p>
+									<p>Better Communication</p>
+
+									<button class="button">START NOW</button>
+								</div>
+
+				</section>
+				<section id="team">
+					<div class="container paddingTop yellow">
+						<h5><span>OUR</span></h5>
+						<h2><b>TEAM</b></h2>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="assets/image/h.jpg" alt="">
+									<h4>Mr. Ramgopalavarma</h4>
+									<p>Data Specialist</p>
+									<p><i class="fa fa-facebook" aria-hidden="true"></i>
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									<i class="fa fa-google-plus" aria-hidden="true"></i></p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="assets/image/h1.jpg" alt="">
+									<h4>Madhavikutti Menon</h4>
+									<p>Client Support</p>
+									<p><i class="fa fa-facebook" aria-hidden="true"></i>
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									<i class="fa fa-google-plus" aria-hidden="true"></i></p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="assets/image/h3.jpg" alt="">
+									<h4>Dr.Venkittaraman</h4>
+									<p>Client Management</p>
+									<p><i class="fa fa-facebook" aria-hidden="true"></i>
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									<i class="fa fa-google-plus" aria-hidden="true"></i></p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="assets/image/h4.jpg" alt="">
+									<h4>George Danial</h4>
+									<p>Communication</p>
+									<p><i class="fa fa-facebook" aria-hidden="true"></i>
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									<i class="fa fa-google-plus" aria-hidden="true"></i></p>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+				<section id="blog">
+					<div class="container-fluid">
+						<div class="container" style="margin-bottom: 30px;">
+							<div class="post">
+								<h5>OUR</h5>
+								<h6><b>BLOG POST<b></h6>
+							</div>
+							<div class="image">
+								<div class="date"></div>
+								<div class="text">
+									<h1>IMAGE</h1>
+									<h1>1140X395</h1>
+								</div>
+							</div>
+							<div class="heading">
+								<br>
+								<div class="col-md-8"><h3><span style="border-bottom: 2px solid #f7941d; color:#23282f;">Blog</span> Heading Here</h3></div>
+								<div class="col-md-2"><i class="fa fa-user" aria-hidden="true"><span> BY ADMIN </span></i></div>
+								<div class="col-md-2"><i class="fa fa-comments-o" aria-hidden="true"><span> COMMENT </span></i></div>
+								<br>
+								<br>
+								<br>
+								<div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p></div>
+								<div><button>READ MORE</button></div>
+								<h2><b>15<b><br>JULY</h2>
+							</div>
+						</div>
+					</div>
+				</section>
+
+							<section id="footer1">
+					<div class="container-fluid ">
+						<div class="row">
+							<div class="col-md-2 ">
+								<img src="assets/image/logo.png">
+							</div>
+							<div class="col-md-2  menu">
+								
+									<h5>Menu</h5>
+									<h6>HOME</h6>
+									<h6>ABOUT US</h6>
+									<h6>FEATURES</h6>
+									<h6>PORTFOLIO</h6>
+								
+							</div>
+							<div class="col-md-2  service">
+								
+									<h6>SERVICE</h6>
+									<h6>BLOG</h6>
+									<h6>BLOG PAGES</h6>
+									<h6><p><i class="fa fa-facebook" aria-hidden="true"></i>
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+									<i class="fa fa-google-plus" aria-hidden="true"></i></p></h6>
+							
+							</div>
+							<div class="col-md-3  contact">
+								
+									<h5>CONTACT</h5>
+									<h6>Address : <span>Geethanjali street Second flor : 88569</span></h6>
+									<h6>Phone : <span>+988 9956 222</span></h6>
+									<h6>Email : <span>info@business.com</span></h6>
+								
+							</div>
+				<div class="col-md-3  news">
+								<h5>Newsletter</h5>
+								<h6>SIGN UP YOUR NEWSLETTER</h6>
+						<div class="search">
+							<form>
+								<input type="text" placeholder="EMAIL ADRESS">
+								<button class="button">GO</button>
+							</form>	
+					</div>
+
+				</div>
+						<div class="xett">
+							<img src="assets/image/xett.png">
+						</div>
+							<p>© 2015 business Ltd. allright reserved</p>
+							<div class="solUcbucaq"></div>
+							<div class="sagUcbucaq"></div>
+					</div>
+
+					
+				</section>
+			</section>
+
+
+
+
+</body>
+</html>

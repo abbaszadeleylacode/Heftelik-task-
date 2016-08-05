@@ -1,0 +1,416 @@
+body{
+font-family: tahoma;
+}
+#HomeHeader{
+background-color:#1E2629;
+}
+#homepagetwo{
+height: 760px;
+background-color: $colorGray;
+
+h1{
+font-size: 60px;
+color:white;
+}
+h3{
+margin: -15px;
+font-size: 24px;
+color:white;
+}
+.prev{
+float:left;
+position:absolute;
+top: 500px;
+color: white;
+}
+.next{
+float:right;
+position:absolute;
+top: 500px;
+right:0px;
+color: white;
+}
+.margin{
+margin-top: 300px;
+}
+.button{
+width: 143px;
+height: 51px;
+padding: 0px;
+margin: 10px;
+background-color: $colorBlue;
+border:0px;
+color:white;
+}
+input{
+width: 331px;
+height: 46px;
+border-radius: 4px;
+}
+.box1{
+width:1141px;
+height:93px;
+background-color: #404143;
+}
+
+.margin1{
+margin-top: 170px;
+}
+.button1{
+width: 190px;
+height: 46px;
+background-color:$colorOrange;
+border:0px;
+border-radius: 4px;
+}
+span{
+font-size: 22px;
+text-transform: uppercase;
+color:white;
+}
+.padRight{
+padding-right:100px;
+}
+h4{
+display: inline-block;
+color:white;
+font-size: 18px;
+
+}
+.sign{
+display: inline-block;
+background-color: $colorOrange;
+}
+#position{
+position:absolute;
+top: 110px;
+left: 94px;
+}
+}
+#whatWeAre{
+height: 596px;
+background-color: white;
+
+ .weAre {
+  height: 595px;
+  width: 1970px 100%; 
+}
+ h6 {
+  color: #23282f;
+  font-size: 25px;
+  text-align: center; 
+}
+ h5 {
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f7941d;
+  color: white;
+  height: 20px;
+  width: 50px;
+  font-size: 13px; 
+}
+.texts {
+  margin-top: 100px; 
+}
+ .col-md-6 {
+  float: left; 
+}
+ .image {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 308px;
+  width: 475px;
+  background-color: #8d8d8d;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px; 
+}
+ .image h3:first-child {
+  padding-top: 122px; 
+}
+p {
+  font-size: 14px;
+  color: #55595f;
+  text-align: left; 
+}
+ .text p {
+  margin-left: 90px;
+  margin-top: 80px; 
+}
+ button {
+  padding: 12px;
+  background-color: #f7941d;
+  color: white;
+  margin: 0 auto;
+  border-radius: 3px;
+  margin-left: 90px;
+  margin-top: 80px; 
+}
+}
+#features1{
+padding-top: 95px;
+text-align:center;
+h5{
+background-color:$colorOrange;
+display: inline-block;
+color:white;
+margin: 0px;
+}
+h3{
+margin: 0;
+}
+.padding{
+padding-top: 80px;
+}
+
+}
+#happyClients{
+margin-top: 130px;
+height: 612px;
+background-color: $colorOrange;
+
+.col-md-8{
+	
+	text-align:center;
+}
+h6{
+	color:white;
+	display: inline-block;
+	background-color:black;
+}
+h3{
+	margin: -10px;
+}
+
+span i{
+	color:white;
+	width:45px;
+	height:45px;
+	border: 1px solid white;
+	border-radius: 100px;
+	padding:10px;
+	margin: 30px;
+}
+h4{
+	font-size: 12px;
+}
+.marginH4{
+	margin:40px;
+}
+.margin{
+	margin-top: 93px;
+}
+
+}
+#ourPricing{
+margin-top: 98px;
+height: 724px;
+background-color: white;
+text-align: center;
+ .col-md-3 {
+	border: 2px solid gray;
+	width: 20%;
+	height:400px;
+	margin-left:50px;
+}
+ .marginTop{
+	margin-top: 40px;
+}
+span{
+	color: $colorOrange;
+}
+h3{
+	margin:0px;
+}
+p:nth-child(1){
+	display:inline-block;
+	background-color: $colorOrange;
+	margin:0px;
+}
+
+}
+#blog{
+	h2{
+		color:white;
+		position:absolute;
+		top: 4196px;
+
+	}
+.post h5 {
+  padding: 2px;
+  margin: 20px auto;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #f7941d;
+  color: white;
+  height: 20px;
+  width: 50px;
+  font-size: 13px; }
+ .post h6 {
+  color: #23282f;
+  font-size: 25px;
+  text-align: center; }
+ .image {
+  margin-top: 10px;
+  background-color: #8d8d8d;
+  height: 395px;
+  width: 1140px; }
+ .image .date {
+    padding: 0px;
+    background: #29c2e1;
+    height: 83px;
+    width: 83px; }
+ .image .text {
+    letter-spacing: 1px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px; }
+ .heading {
+  margin-top: 20px;
+  padding: 10px; }
+.heading h3 {
+    margin: 0px;
+    color: #23282f;
+    text-align: left;
+    font-size: 20px; }
+.heading i {
+    color: #f7941d;
+    font-size: 14px;
+    text-align: left; }
+ .heading span {
+    color: #59686c; }
+ .heading p {
+    padding: 0 15px;
+    color: #55595f;
+    font-size: 14px;
+    text-align: left; }
+ .heading button {
+    height: 45px;
+    width: 140px;
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 8px;
+    background: #f7941d;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px; }
+}
+/*footer baslayir/*/
+#footer1 {
+height: 420px;
+background-color: #1E2629;
+form input {
+font-size: 11px;
+padding-left: 13px;
+}
+.box{
+border: 1px solid red;
+}
+.xett{
+padding-top:20px;
+}
+p{
+padding-top:20px;
+text-align: center;
+text-transform: uppercase;
+font-size: 13px;
+}
+img{
+padding-top:74px;
+padding-left:86px;
+}
+.menu{
+padding-top:60px;
+padding-left: 80px;
+}
+.menu h6{
+letter-spacing: 1px;
+color:$colorLightGray;
+}
+.service h6{
+padding-top: 8px;
+padding-left:20px;
+}
+.service {
+padding-top:94px;
+padding-left:30px;
+color:$colorLightGray;
+}
+.service i{
+letter-spacing: 8px;
+
+}
+.news{
+padding-top: 60px;
+padding-left: 20px;
+h6{
+color: $colorLightGray;
+}
+}
+.contact{
+padding-top: 63px;
+padding-left: 20px;
+span{
+color: $colorLightGray;
+}
+h6{
+padding-top:8px;
+letter-spacing: 1px;
+}
+}
+.search {
+width:300px;
+height: 100px;
+}
+.search form input:first-child{
+width: 225px;
+height: 35px;
+border:1px solid gray;
+}
+.button{
+width:40px;
+height:35px;
+background-color: $colorBlue;
+border: none;
+padding: 0px;
+margin: 0px;
+}
+
+.solUcbucaq {
+width: 0px;
+height:0px;
+float: left;
+
+border-top: 100px solid transparent;
+border-bottom: 100px solid #F69B37;
+border-right: 200px solid transparent;
+position:relative;
+bottom: 245px;
+}
+.sagUcbucaq {
+width: 0px;
+height:0px;
+float: left;
+
+border-top: 100px solid transparent;
+border-bottom: 00px solid transparent;
+border-right: 225px solid $colorBlue;
+border-left: 200px solid transparent;
+position:relative;
+bottom:50px;
+right: -720px;
+}
+}
+/*footer qurtarir*/
+
+.yellow span{
+background-color:$colorOrange;
+display:inline-block;
+}
+.yellow h5, h2{
+text-align:center;
+}
